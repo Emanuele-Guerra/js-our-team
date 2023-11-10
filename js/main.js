@@ -1,3 +1,7 @@
+const inner = document.getElementById("inner")
+let personPush = []
+const unList = document.getElementById("unorder")
+let lItem 
 const person = [
     {
         name: "Wayne Barnett",
@@ -30,9 +34,17 @@ const person = [
         pic: "barbara-ramos-graphic-designer.jpg"
     }
 ];
-for (let i = 0; i < person.length; i++) {
-    console.log(person[i].name)
-    console.log(person[i].role)
-    console.log(person[i].pic)
+for (let i = 0; i <= person.length; i++) {
+    
+    personPush.push(i)
+    personPush.push(i)
+    
+    unList.appendChild(document.createElement("li"))
+    lItem = unList.innerHTML = ()
+
+   
 }
+
+    
+    
 
